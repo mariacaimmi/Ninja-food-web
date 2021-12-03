@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    width: 100%;
+    height: 4em;
+    line-height: 4em;
+
+}
+
+
+h1[title="logo"],
+#loguito {
+    background: url(imagenes/logo_cel.png) no-repeat center center;
+    background-size: cover;
+    font-size: 0;
+    width: 85vw;
+    height: calc(85vw * .19918);
+    max-width: 246px;
+    max-height: 46px;
+    margin: auto;
+}
+
+
+
+
+figure {
+    background-color: white;
+    text-align: center;
+    line-height: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#video {
+    width: 90vw;
+    height: calc(90vw * 630 / 1120);
+    max-height: 630px;
+    max-width: 1120px;
+    margin: auto;
+
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5em;
+    color: black;
+    /*margin-top: 2.2em;*/
+    background: none;
+    font-weight: 900;
+
+}
+
+.caja {
+    width: 90vw;
+    max-width: 1120px;
+    margin: 2em auto;
+}
+
+
+#form {
+
+    width: 80vw;
+    margin: auto;
+
+}
+
+aside,
+#form figure {
+    background: #ff935a;
+}
+
+#form figure {
+    padding-bottom: 2em;
+}
+
+form {
+
+    margin: auto;
+
+
+
+
+}
+
+label {
+    display: block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1em;
+    height: 2em;
+}
+
+textarea {
+    width: 100%;
+}
+
+#form div {
+    margin: auto;
+    width: 90%;
+}
+
+input:required {
+    outline: 2px solid red;
+}
+
+input:focus {
+    border: #919691
+}
+
+input:valid {
+    background: #dde3dd;
+}
+
+input:focus:invalid {
+    background: red;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+
+    background-color: #ff2f2f;
+    padding: 10px;
+    margin: 2em auto;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    height: 50%;
+    justify-content: center;
+}
+
+section > h2[class$=title] {
+    margin: auto;
+    margin-top: 1em;
+
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+    max-width: 1120px;
+    margin-bottom: 5em;
+}
+
+#dos div:nth-child(2) {
+    width: 85%;
+    margin: auto;
+
+}
+
+#recetas {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+figcaption {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-bottom: .5em;
+    width: auto;
+    line-height: 1em;
+
+
+}
+
+#recetas picture > img {
+    margin: .5em auto;
+
+}
+
+
+}
+
+#recetas p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    width: 320px;
+    line-height: .95em;
+    color: #797878;
+
+
+}
+
+#recetas figure {
+    text-align: left;
+    margin-top: 3em;
+    width: 90%;
+
+}
+
+#recetas figure:first-of-type {
+    margin-top: 1em;
+}
+
+
+#fondo,
+#fondo figure {
+    background: #dedede;
+    text-align: left;
+
+}
+
+#fondo {
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding-top: 2em;
+
+}
+
+#fondo h2,
+#dos div:nth-child(2) {
+    margin-left: 1em;
+}
+
+#dos div:last-child {
+    margin-left: 1em;
+}
+
+
+
+body p:not(.segtitle) {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+
+}
+
+.segtitle {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3em;
+    color: #4a4444;
+    font-weight: 400;
+
+}
+
+
+
+
+
+footer {
+    background-color: rgba(165, 151, 151, 0.2);
+    padding: 2em;
+    text-align: center;
+
+
+
+}
+
+footer li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    list-style: none;
+    text-decoration: none;
+}
+
+hr {
+    color: darkgray;
+
+}
+
+#redes ul li {
+    list-style: none;
+    font-family: 'roboto slab';
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: .86em;
+
+
+}
+
+#redes {
+    display: inline-block;
+
+}
+
+#redes li {
+
+    list-style: none;
+    overflow: auto;
+    display: inline-block;
+
+}
+
+hr {
+    color: darkgray;
+
+}
+
+#redes li a {
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: url(imagenes/sprite.png);
+    height: 46px;
+    width: 46px;
+    font-size: 0;
+    display: inline-block;
+}
+
+#redes li:nth-child(1) a {
+    background-position: -8px top;
+}
+
+#redes li:nth-child(2) a {
+    background-position: -327px top;
+}
+
+#redes li:nth-child(3) a {
+    background-position: -262px top;
+}
+
+#redes li:nth-child(4) a {
+    background-position: -517px top;
+}
+
+#redes li:nth-child(4) a:hover {
+    background-position: -517px;
+}
+
+#redes li:nth-child(1) a:hover {
+    background-position: -8px;
+}
+
+#redes li:nth-child(2) a:hover {
+    background-position: -327px;
+}
+
+#redes li:nth-child(3) a:hover {
+    background-position: -262px;
+}
+
+#fondo h3 {
+    font-style: italic;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+#dos div:nth-child(2) {
+    display: none;
+}
+
+#gracias {
+    display: none;
+}
+
+#gracias:target {
+    display: block;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    #botones {
+        /*display: none;*/
+        position: absolute;
+        width: 40%;
+        left: -100vw;
+        top: 3em;
+        background: #ff2f2f;
+        height: calc(75vh - 4em);
+        line-height: 2em;
+    }
+
+    #botones li {
+
+        list-style: none;
+        text-decoration: none;
+
+        margin-left: 1em;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+
+
+    }
+
+
+    #botones li a {
+        display: inline;
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+    #botones li a:hover {
+        text-decoration: underline;
+
+
+    }
+
+
+
+    #comando li:last-child {
+        display: none;
+    }
+
+    nav:target #botones {
+        left: 0;
+        transition: all 500ms;
+    }
+
+    nav:target #comando li:last-child {
+        display: block;
+
+    }
+
+    nav:target #comando li:first-child {
+        display: none;
+    }
+
+
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+
+
+    #comando li {
+
+        width: 2.5em;
+        list-style: none;
+        margin: .2em;
+
+    }
+
+    #comando li a {
+        background-color: aqua;
+        display: block;
+        height: 2.5em;
+        text-decoration: none;
+        text-indent: -1000px;
+        overflow: hidden;
+        background: url(imagenes/menu1-01.png) center center no-repeat;
+        background-size: cover;
+    }
+
+
+
+
+
+    nav:target #comando li a {
+        background: url(imagenes/menu2-01.png) center center no-repeat;
+        background-size: cover;
+    }
+
+
+
+    nav ul li:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 577px) {
+
+
+    section {
+        max-width: 1120px;
+
+        /*width: 100%;*/
+
+    }
+
+    header {
+        width: 90%;
+        height: 8em;
+        margin: auto;
+    }
+
+
+    #botones li {
+        display: inline-block;
+        text-decoration: none;
+        width: 16%;
+        margin: .1em auto;
+        line-height: 2.5em;
+        text-align: center;
+        background: #ff8c19;
+        color: white;
+        border-radius: .5em;
+
+
+    }
+
+    #botones li:hover {
+        background-color: #f44f05;
+    }
+
+    #comando {
+        display: none;
+    }
+
+    h1[title="logo"] {
+        background: url(imagenes/logo_tab-01.png);
+        width: 100vw;
+        height: calc(100vw * .2188);
+        background-size: cover;
+        max-width: 297px;
+        max-height: 65px;
+        margin: auto;
+    }
+
+    .title {
+        font-size: 2em;
+
+    }
+
+    #recetas {
+
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    #recetas figure:first-of-type {
+        margin-top: 3em;
+    }
+
+    #recetas figure {
+        width: auto;
+
+    }
+
+    body article:nth-child(5) {
+        margin: 50px auto;
+    }
+
+
+    #loguito {
+        margin: auto 2em;
+    }
+
+    footer {
+        text-align: left;
+    }
+
+
+    #form,
+    form {
+        max-width: 70%;
+
+
+    }
+
+
+    hr {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: stretch;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #redes {
+        flex: 2 900px;
+    }
+
+    #loguito {
+        flex: 1 300px;
+    }
+
+    #yo {
+        flex: 0;
+    }
+
+    #fondo h3 {
+        font-size: 1.5em;
+        margin-left: 2.5em;
+        margin-bottom: 2em;
+
+
+
+    }
+
+    #fondo {
+        margin-bottom: 4em;
+
+    }
+
+    #fondo h2,
+    #dos div:nth-child(2) {
+        margin-left: 2em;
+        width: 85%;
+    }
+
+    #dos div:last-child {
+        margin-left: 2em;
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 990px) {
+
+    header,
+    section {
+        max-width: 1120px;
+        width: 100%;
+    }
+
+    h1[title="logo"] {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40%;
+    }
+
+    /*#botones {
+        width: 60%;
+        display: inline-block;
+        vertical-align: middle;
+
+    }*/
+
+
+
+
+
+    figcaption {
+        text-align: left;
+    }
+
+
+    body article:nth-child(5) {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        margin: 0;
+
+    }
+
+
+    #fondo,
+    #fondo figure {
+        background: #dedede;
+        width: 100%;
+        text-align: left;
+
+
+    }
+
+    #dos div:nth-child(2) {
+        margin-left: 3.5em;
+        width: 72%;
+        display: inline-block;
+    }
+
+    #dos div:last-child {
+        margin-left: 3.5em;
+        width: 72%;
+        display: inline-block;
+    }
+
+    #dos {
+
+        order: 1
+    }
+
+    #form figure {
+        width: auto;
+    }
+
+    #form {
+        display: inline-block;
+        order: 2;
+        margin: 0;
+        flex: 1 24%;
+
+    }
+
+    #form,
+    form {
+        max-width: 100%;
+
+
+    }
+
+
+    hr {
+        margin-top: 9px;
+    }
+
+
+
+
+}
